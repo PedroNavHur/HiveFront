@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Link from '../src/Link';
 import ProTip from '../src/ProTip';
 import Copyright from '../src/Copyright';
+import HexBoard from '../src/Hex';
 
 export default function Home() {
   return (
@@ -19,8 +20,9 @@ export default function Home() {
         }}
       >
         <Typography variant="h4" component="h1" gutterBottom>
-          MUI v5 + Next.js with TypeScript example
+          Hive Game Preview
         </Typography>
+        <HexBoard/>
         <Link href="/about" color="secondary">
           Go to the about page
         </Link>
